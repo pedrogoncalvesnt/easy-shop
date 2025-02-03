@@ -1,0 +1,88 @@
+# Windows image files
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer logs
+*.log
+
+# Windows Installer packages
+*.exe
+*.dll
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Build Folders (we can always regenerate them)
+bin/
+obj/
+
+# User-specific files for Visual Studio for Mac
+.vscode/
+
+# Windows Installer Logs
+*.cab
+*.msi
+*.msm
+*.msp
+
+# .NET Core
+.vs2019/
+.vs2017/
+.vs/
+.idea/
+
+# Rider
+.idea/
+
+# .NET Core SDK
+global.json
+
+# ASP.NET Core Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework Core files
+*.bak
+*.log
+
+# User-specific files for JetBrains Rider
+.idea/
+
+# VS for Mac
+.vscode/
+
+# ASP.NET Core development server
+project.lock.json
+project.fragment.lock.json
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Other files created by .NET Core SDK
+.dockerignore
+.dockerfile
+
+# SQLite files (if using SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# JetBrains Rider directory
+.idea/
+
+# Visual Studio for Mac
+.vscode/
+
+# OS-specific system files
+.DS_Store

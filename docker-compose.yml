@@ -1,0 +1,13 @@
+﻿services:
+  webapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: easyshop
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./EasyShop.API/easyshop.db:/app/easyshop.db
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+      - ASPNETCORE_ENVIRONMENT=Development
