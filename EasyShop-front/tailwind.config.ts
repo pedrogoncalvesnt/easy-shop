@@ -22,7 +22,12 @@ export default {
   			},
   			primary: {
   				DEFAULT: 'hsl(var(--primary))',
-  				foreground: 'hsl(var(--primary-foreground))'
+  				foreground: 'hsl(var(--primary-foreground))',
+				blue: "#34495E",
+				grey: "#212121",
+				normal: "hsl(233, 13%, 49%)",
+				dark: "hsl(232, 13%, 33%)",
+				white: "#FFFFFF"
   			},
   			secondary: {
   				DEFAULT: 'hsl(var(--secondary))',
@@ -56,7 +61,13 @@ export default {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		}
-  	}
+  	}, 
+	fontFamily: {
+		'sans': [
+		  'Montserrat',
+		  'sans-serif',
+		],
+	  }
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;

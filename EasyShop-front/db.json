@@ -1,0 +1,11 @@
+{
+    "products": [
+      { "id": "1", "title": "Camisa Flamengo ", "description": "Camisa Flamengo 24/25", "img_path": "/images/camisa-flamengo.jpg", "value": 299.99, "stock": 50 },
+      { "id": "2", "title": "Camisa Grêmio", "description": "Camisa Grêmio 24/25", "img_path": "/images/camisa-gremio.jpg", "value": 87.60, "stock": 7 },
+      { "id": "3", "title": "Camisa Fluminense", "description": "Camisa Fluminense 24/25", "img_path": "/images/camisa-fluminense.jpg", "value": 200, "stock": 8 },
+      { "id": "4", "title": "Camisa Botafogo", "description": "Camisa Botafogo 24/25", "img_path": "/images/camisa-botafogo.jpg", "value": 70, "stock": 24 },
+      { "id": "5", "title": "Camisa Vasco", "description": "Camisa Vasco 24/25", "img_path": "/images/camisa-vasco.jpg", "value": 50, "stock": 2 },
+      { "id": "6", "title": "Camisa São Paulo", "description": "Camisa São Paulo 24/25", "img_path": "/images/camisa-sp.jpg", "value": 100, "stock": 13 },
+      { "id": "7", "title": "Camisa Santos", "description": "Camisa Santos 24/25", "img_path": "/images/camisa-santos.jpeg", "value": 400, "stock": 6 }
+    ]
+}

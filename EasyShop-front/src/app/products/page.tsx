@@ -1,23 +1,15 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import ProductsList from "./ProductsList";
 
+async function getProducts() {
+  const res = await fetch("http://localhost:3001/products"); // Substitua pelo endpoint real
+  if (!res.ok) {
+    throw new Error("Falha ao buscar os produtos");
+  }
+  return res.json();
+}
 
-export default function Product() {
-    return (
-        <div className="p-5 flex justify-start space-x-4">
-            <Card className="h-96 w-96">
-                <CardHeader>
-                    <CardTitle className="text-lg">Camisa Flamengo</CardTitle>
-                    <CardDescription className="text-sm">Camisa Flamengo 24/25</CardDescription>
-                </CardHeader>
-                <CardContent className="flex justify-center">
-                    <img className="h-52 w-56" src="/images/camisa-flamengo.jpg" alt="Camisa flamengo" />
-                </CardContent>
-                <CardFooter className="flex space-x-2 justify-center">
-                    <Button className="bg-green-50" variant="outline">Comprar</Button>
-                    <Button className="bg-slate-50" variant="outline">+</Button>
-                </CardFooter>
-            </Card>
-        </div>
-    )
+export default async function ProductsPage() {
+  const products = await getProducts();
+
+  return <ProductsList products={products} />; // Passa os produtos como props para o Client Component
 }
